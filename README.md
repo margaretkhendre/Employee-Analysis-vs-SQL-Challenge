@@ -5,7 +5,8 @@ Pewlett Hackard's employee and department files are to be examined to aid their 
 
 
 ## Data Modeling 
-QuickDBD is used to sketch an Entity Relationship Diagram for Pewlwtt Hackard.
+QuickDBD has been used to sketch an Entity Relationship Diagram for Pewlett Hackard.
+
 ![Data Modeling ](https://user-images.githubusercontent.com/121995835/228045206-e0fa6b98-1c31-425c-9127-f1cf99c88e9b.png)
 
 
