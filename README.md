@@ -10,6 +10,7 @@ QuickDBD is used to sketch an Entity Relationship Diagram for Pewlwtt Hackard.
 ## Data Engineering 
 Tables have been createed for each of the 6 CSV files from Pewlett Hackard in this Table Schema. (Also located in the EmployeeSQL folder.)
 
+'''
 CREATE TABLE TITLES(
 	Title_ID VARCHAR(20) NOT NULL,
 	Title VARCHAR(30) NOT NULL,
@@ -69,3 +70,4 @@ CREATE TABLE SALARIES(
 );
 
 SELECT * FROM SALARIES
+'''
