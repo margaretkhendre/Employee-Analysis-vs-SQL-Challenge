@@ -3,9 +3,11 @@ This challenge will display data modeling, data engineering, and data analysis o
 
 Pewlett Hackard's employee and department files are to be examined to aid their hiring process. 
 
+
 ## Data Modeling 
 QuickDBD is used to sketch an Entity Relationship Diagram for Pewlwtt Hackard.
 ![Data Modeling ](https://user-images.githubusercontent.com/121995835/228045206-e0fa6b98-1c31-425c-9127-f1cf99c88e9b.png)
+
 
 ## Data Engineering 
 Tables have been createed for each of the 6 CSV files from Pewlett Hackard in this Table Schema. (Also located in the EmployeeSQL folder.)
@@ -47,7 +49,7 @@ Departments
 
 	SELECT * FROM DEPARTMENTS
 
-Department Manager
+Department Managers
 
 	CREATE TABLE DEPT_MANAGER(
 	Dept_no VARCHAR(15) NOT NULL,
@@ -59,7 +61,7 @@ Department Manager
 
 	SELECT * FROM DEPT_MANAGER
 
-Department Employee
+Department Employees
 
 	CREATE TABLE DEPT_EMP(
 	Emp_no INT NOT NULL,
@@ -80,4 +82,12 @@ Salaries
 	);
 
 	SELECT * FROM SALARIES
+	
+
+## Data Analysis
+List the employee number, last name, first name, sex, and salary of each employee
+
+List the first name, last name, and hire date for the employees who were hired in 1986 
+
+List the manager of each department along with their department number, department name, employee number, last name, and first name
 
