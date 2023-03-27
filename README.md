@@ -12,6 +12,9 @@ Tables have been createed for each of the 6 CSV files from Pewlett Hackard in th
 
 Create tables for each of the 6 CSV files 
 
+
+Titles  
+
 	CREATE TABLE TITLES(
 	Title_ID VARCHAR(20) NOT NULL,
 	Title VARCHAR(30) NOT NULL,
@@ -19,6 +22,7 @@ Create tables for each of the 6 CSV files
 	);
 	SELECT * FROM TITLES
 
+Employees 
 
 	CREATE TABLE EMPLOYEES(
 	Emp_no INT NOT NULL PRIMARY KEY,
@@ -33,6 +37,7 @@ Create tables for each of the 6 CSV files
 
 	SELECT * FROM EMPLOYEES
 
+Departments 
 
 	CREATE TABLE DEPARTMENTS(
 	Dept_no VARCHAR(15) NOT NULL,
@@ -42,6 +47,7 @@ Create tables for each of the 6 CSV files
 
 	SELECT * FROM DEPARTMENTS
 
+Department Manager
 
 	CREATE TABLE DEPT_MANAGER(
 	Dept_no VARCHAR(15) NOT NULL,
@@ -53,6 +59,8 @@ Create tables for each of the 6 CSV files
 
 	SELECT * FROM DEPT_MANAGER
 
+Department Employee
+
 	CREATE TABLE DEPT_EMP(
 	Emp_no INT NOT NULL,
 	Dept_no VARCHAR(15) NOT NULL,
@@ -62,6 +70,8 @@ Create tables for each of the 6 CSV files
 	);
 
 	SELECT * FROM DEPT_EMP
+
+Salaries 
 
 	CREATE TABLE SALARIES(
 	Emp_no INT NOT NULL PRIMARY KEY,
