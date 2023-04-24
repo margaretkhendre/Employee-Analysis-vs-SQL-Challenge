@@ -1,4 +1,4 @@
-# Module 9- sql-challenge
+# sql-challenge
 This challenge will display data modeling, data engineering, and data analysis of a fictional company, Pewlett Hackard.
 
 Pewlett Hackard's employee and department files are to be examined to aid their hiring process. 
