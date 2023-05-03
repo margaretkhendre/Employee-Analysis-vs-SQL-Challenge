@@ -1,16 +1,18 @@
 # SQL Challenge
+
+### Background
 This challenge will display data modeling, data engineering, and data analysis of a fictional company, Pewlett Hackard.
 
 Pewlett Hackard's employee and department files are to be examined to aid their hiring process. 
 
 
-## Data Modeling 
+### Data Modeling 
 QuickDBD has been used to sketch an Entity Relationship Diagram for Pewlett Hackard.
 
 ![Data Modeling ](https://user-images.githubusercontent.com/121995835/228045206-e0fa6b98-1c31-425c-9127-f1cf99c88e9b.png)
 
 
-## Data Engineering 
+### Data Engineering 
 Tables have been created for each of the 6 CSV files from Pewlett Hackard in this Table Schema. (Also located in the EmployeeSQL folder.) 
 
 
@@ -83,7 +85,7 @@ Salaries
 	SELECT * FROM SALARIES
 	
 
-## Data Analysis
+### Data Analysis
 List the employee number, last name, first name, sex, and salary of each employee.
 
 	SELECT EMPLOYEES.Emp_no, EMPLOYEES.Last_name, EMPLOYEES.First_name, EMPLOYEES.Sex, SALARIES.Salary 
